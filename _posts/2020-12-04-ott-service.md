@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "OTT 비디오 스트리밍 사이트 모음 및 가격 비교"
+title: "OTT 서비스 플랫폼 모음 및 가격 비교"
 author: AirPock
 categories: [Lifestyle]
-image: assets/images/201204-OTT.jpg
+image: assets/images/201204-ott.jpg
 beforetoc: "영화, 드라마, 애니메이션, 어떤 서비스를 이용할지 고민되시나요?
 최근 Covid-19로 인해 집에있는 시간이 길어지면서 영화, 드라마, 애니메이션 등 영상을 시청하는 일이 많아졌습니다.
 넷플릭스, 왓챠 등 여러가지 OTT 플랫폼이 떠오르고 있는 가운데, 어떤 OTT 서비스를 선택해야할지 비교 분석해보도록 하겠습니다."

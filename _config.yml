@@ -17,6 +17,7 @@ authors:
   AirPock:
     name: AirPock
     display_name: AirPock
+    avatar: "assets/images/airpock-avatar.png"
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: airpock@gmail.com
     web:
