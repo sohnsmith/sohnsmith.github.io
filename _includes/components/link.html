@@ -1,0 +1,58 @@
+{% assign link_meta = include.meta %}
+
+{% if link_meta %}
+{% assign title = link_meta.title %}
+{% assign desc = link_meta.desc %}
+{% assign link = link_meta.link %}
+{% assign img = link_meta.img %}
+{% assign domain = link_meta.domain %}
+{% assign is_follow = link_meta.is_follow %}
+{% else %}
+{% assign title = include.title %}
+{% assign desc = include.desc %}
+{% assign link = include.link %}
+{% assign img = include.img %}
+{% assign domain = include.domain %}
+{% assign is_follow = include.is_follow %}
+{% endif %}
+
+{% unless is_follow %}
+{% if link contains '://' %}
+{% assign is_follow = false %}
+{% endif %}
+{% endunless %}
+
+{% assign rel = 'noopener noreferrer' %}
+{% unless is_follow %}
+{% assign rel = 'nofollow ' | append: rel %}
+{% endunless %}
+
+{% assign target = '_blank' %}
+
+{% unless domain %}
+{% assign domain = link | replace: 'https://', '' | replace: 'http://', '' | split: '/' | first %}
+{% if domain == '' %}
+{% assign domain = site.url | replace: 'http://', '' | replace: 'https://', '' %}
+{% assign target = '_self' %}
+{% endif %}
+{% endunless %}
+
+<div class="link-container">
+    <a href="{{ link }}" target="{{ target }}" rel="{{ rel }}">
+        <div class="link-box">
+            <div class="link-img-container">
+                <div class="link-img" style="background-image:url({{ img }})"></div>
+            </div>
+            <div class="link-body">
+                <p class="link-title">{{ title }}</p>
+                <div class="link-desc">
+                    <p class="link-desc-text">{{ desc }}</p>
+                </div>
+                <div class="link-domain-container">
+                    <p class="link-domain">{{ domain }}</p>
+                </div>
+            </div>
+
+        </div>
+    </a>
+</div>

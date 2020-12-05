@@ -2,7 +2,7 @@
 layout: post
 title: "OTT 서비스 플랫폼 모음 및 가격 비교"
 author: AirPock
-categories: [ Lifestyle ]
+categories: [ recommend ]
 image: assets/images/201204-ott.jpg
 beforetoc: "OTT(Over The Top)이란, 인터넷을 통해 어디서든 미디어 컨텐츠를 시청할 수 있는 서비스입니다.
 스마트폰, 태블릿PC 등이 발전하면서 셋톱박스(Top)을 넘어 PC, 스마트폰, 태블릿PC 등 언제나 어디서나 컨텐츠를 소비 할 수 있게 되었습니다."
@@ -44,6 +44,8 @@ OTT 서비스 이용자의 84%는 가입 결정에서 가장 중요한 것으로
 
 - 유튜브 오리지널
 - 광고 없는 유튜브 컨텐츠들.
+
+{% include components/link.html link='https://bucketip.com' title='xxxx' desc='xxxx22' img='/assets/images/logo.png' %}
 
 처음 발표 당시에는 레드라는 이름이었으나 2018년 6월 개편 이후로 프리미엄으로 변경하였습니다.
 
@@ -234,9 +236,9 @@ KT의 올레tv 모바일이 전신이며, 뮤지션 Live, 뮤직, 아프리카TV
 
 ### [카카오TV](https://tv.kakao.com/)
 
-> 무료로 인터넷방송, 라이브 및 가벼운 컨텐츠.
-
 ---
+
+> 무료로 인터넷방송, 라이브 및 가벼운 컨텐츠.
 
 **가격**
 

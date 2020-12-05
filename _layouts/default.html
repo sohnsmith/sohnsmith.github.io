@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta name="google-site-verification" content="9yLMs6vx-gxsqi1HtPRDieiOj50HOcKez0l8BOBX-XI" />
+
     <link rel="icon" href="{{ site.baseurl }}/assets/images/logoa.png">
 
     <title>{{ page.title }} | {{site.name}}</title>
@@ -14,6 +16,10 @@
     <link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
 
     <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+
+    <link href="{{ site.baseurl }}/assets/css/layout.css" rel="stylesheet">
+
+    <link href="{{ site.baseurl }}/assets/css/layout.media.css" rel="stylesheet">
 
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
@@ -55,13 +61,11 @@
     <nav id="menu">
         <ul>
             <h3>Navigation</h3>
-            <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <li><a href="{{ site.baseurl }}/about">About <span class="badge badge-primary">Memoirs Jekyll
-                        Theme</span></a></li>
-            <li><a href="{{ site.baseurl }}/categories">Categories </a></li>
-
-
-            <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+            {% assign categories = site.data.nav %}
+            <li><a href="/">Home</a></li>
+            {% for category in categories %}
+            <li><a href="/{{ category.id }}">{{ category.name }}</a></li>
+            {% endfor %}
         </ul>
     </nav>
 
