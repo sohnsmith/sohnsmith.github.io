@@ -2,7 +2,7 @@
 layout: post
 title: "OTT 서비스 플랫폼 모음 및 가격 비교"
 author: AirPock
-categories: [Lifestyle]
+categories: [ Lifestyle ]
 image: assets/images/201204-ott.jpg
 beforetoc: "영화, 드라마, 애니메이션, 어떤 서비스를 이용할지 고민되시나요?
 최근 Covid-19로 인해 집에있는 시간이 길어지면서 영화, 드라마, 애니메이션 등 영상을 시청하는 일이 많아졌습니다.
@@ -236,3 +236,11 @@ KT의 올레tv 모바일이 전신이며, 뮤지션 Live, 뮤직, 아프리카TV
 카카오의 자회사 카카오M에서 제공하는 통합 동영상 서비스로, OTT, 제휴/계약 공식 방송영상, 개인 인터넷 방송등을 제공합니다. 카카오TV 오리지널 드라마, 예능, 영화등을 제작하고있으며 동영상 플레이어의 기능 또한 합니다.
 
 ---
+
+### 맺음
+
+여기까지, 유료결제를 통해 영화 및 드라마 볼 수 있는 OTT 서비스 플랫폼에 대해 알아보았습니다. 가격, 기능, 컨텐츠 등 각 플랫폼별로 장단점을 잘 파악하고 나에게 잘 맞는 플랫폼을 선택하는 것이 중요합니다. 인터넷 [무료영화](https://navy-apple.com/tips/life/free-movie-websites) [사이트](https://bucketip.com/rank/free-movie) 혹은 [다시보기](https://navy-apple.com/tips/internet-mobile/free-review-tv) 사이트를 찾는 분들도 많지만, 요즘에는 부담되지 않는 가격으로 월 결제를 통하여 편리한 기능 및 추천, 다양한 컨텐츠를 안정적으로 찾는 분들이 많아진 것 같습니다.
+
+혹시라도 글에 오류가 있거나 궁금한 점, 의견이 있으시다면 댓글로 남겨주세요.
+
+감사합니다.

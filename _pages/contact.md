@@ -6,7 +6,7 @@ comments: false
 ---
 
 <form action="https://formspree.io/{{site.email}}" method="POST">    
-<p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
+<p class="mb-4">의견이 있으시다면 메시지를 보내주세요 {{site.name}}. 더 좋은 컨텐츠를 위해 반영하도록 하겠습니다.</p>
 <div class="form-group row">
 <div class="col-md-6">
 <input class="form-control" type="text" name="name" placeholder="Name*" required>
