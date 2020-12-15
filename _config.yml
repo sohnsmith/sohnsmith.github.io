@@ -40,6 +40,8 @@ plugins:
   - jekyll-archives
   - jekyll-figure
 
+permalink: '/:categories/:title'
+
 # Archives
 jekyll-archives:
   enabled:

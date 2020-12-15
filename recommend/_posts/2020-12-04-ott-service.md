@@ -45,7 +45,7 @@ OTT 서비스 이용자의 84%는 가입 결정에서 가장 중요한 것으로
 - 유튜브 오리지널
 - 광고 없는 유튜브 컨텐츠들.
 
-{% include components/link.html link='https://bucketip.com' title='xxxx' desc='xxxx22' img='/assets/images/logo.png' %}
+{% include components/link.html link='https://www.youtube.com/premium' title='YouTube Premium' desc='YouTube Premium에 가입하여 YouTube와 YouTube Music에서 광고 없는 서비스 이용, 오프라인 저장, 백그라운드 재생 혜택을 누려 보세요.' img='/assets/images/youtubepremium.jpg' %}
 
 처음 발표 당시에는 레드라는 이름이었으나 2018년 6월 개편 이후로 프리미엄으로 변경하였습니다.
 
@@ -76,6 +76,8 @@ OTT 서비스 이용자의 84%는 가입 결정에서 가장 중요한 것으로
 - 영화, 드라마, 예능 등
 - wavve 오리지널
 
+{% include components/link.html link='https://www.wavve.com/live/index.html' title='웨이브(wavve)' desc='웨이브 (wavve) 재미의 파도를타다!' img='/assets/images/wavve.png' %}
+
 POOQ과 oksusu를 통합하여 새로운 이름으로 탄생한 대한민국의 OTT 서비스입니다.
 서비스 통합 한 달 만에 넷플릭스 가입자를 앞질렀다고 하지만 SKT oksusu 가입자들이 서비스 종료로 인해 어쩔수 없이 전환하였으며, 실상 oksusu의 서비스는 티빙과 나눠져 기존의 POOQ와 큰 차이가 없습니다.
 또한, 기본 요금제부터 시청 가능한ㅇ wavvie 영화와 개별 구매 영화로 구분되어 있어, 모든 영화 컨텐츠를 구독만으로는 시청할 수 없습니다.
@@ -103,6 +105,9 @@ _\*요금제 간 금액 차이가 정말 미미하여, 베이직 요금제는 �
 - 영화, 드라마, 예능, 애니메이션 등
 - 넷플릭스 오리지널 Netflix Original
 
+{% include components/link.html link='https://www.netflix.com/' title='Netflix' desc='
+스마트 TV, 태블릿, 스마트폰, PC, 게임 콘솔 등 다양한 디바이스에서 영화와 TV 프로그램을 마음껏 즐기세요.' img='/assets/images/netflix.png' %}
+
 넷플릭스는 190여 개국에 1억 6,700만여 개의 유료 멤버십을 보유한 세계적인 스트리밍 서비스입니다. 미국의 OTT기업으로 2016년 1월 6일 한국에서 정식으로 서비스를 시작했으며, 2020년 Covid-19의 창궐로 인해 스트리밍 붐이 오면서 시가총액 2000억 달러의 벽을 돌파하는 등 국내 및 해외에서 어마어마한 성장세를 보이는 플랫폼입니다.
 
 다양한 컨텐츠를 보유하고 있으며, 넷플릭스에서 자체 제작한 오리지널 컨텐츠 또한 엄청난 인기를 끌고있습니다. 넷플릭스 오리지널은 드라마, 다큐멘터리부터 시작하여 영화까지 제작하기에 이르렀으며, 모든 촬영이 완료된 후 제공되는 방식으로 높은 완성도를 자랑합니다. 앞으로도 천문학적인 금액이 투자되며 더욱 더 다양한 오리지널 컨텐츠를 제공할 계획을 밝혔습니다.
@@ -129,6 +134,8 @@ _\*요금제 간 금액 차이가 정말 미미하여, 베이직 요금제는 �
 - 다양한 국내 영화, 드라마 및 예능
 - 왓챠 독점 컨텐츠 다수 보유
 
+{% include components/link.html link='https://watcha.com/' title='왓챠 - 체르노빌, 킬링이브, 왕좌의 게임 외 8만 편 영화, 드라마 무제한 감상' desc='모든 영화, 드라마, 다큐멘터리, 애니메이션을 언제 어디서나 최고의 화질로 무제한 감상하세요.' img='/assets/images/watcha.png' %}
+
 2012년 영화평 기록 및 추천 서비스 왓챠를 시작으로 2016년 처음 왓챠플레이라는 이름으로 런칭한 OTT 서비스입니다.
 국내에서 넷플릭스와 가장 많이 비교되는 플랫폼으로 왕좌의 게임, 리틀 드러머 걸 같은 독점 컨텐츠를 보유하고 있습니다.
 가장 큰 강점은 큐레이션으로, 사용자의 실제 관람평을 기록, 분석하여 추천영화를 제안합니다.
@@ -154,7 +161,9 @@ _\*요금제 간 금액 차이가 정말 미미하여, 베이직 요금제는 �
 
 - 실시간 TV 및 다시보기
 
-CJ ENM이 운영하는 OTT서비스, 다시보기 업로드 속도는 상대적으로 느린 편. CJ ONE에 가입하면 영화채널을 제외한 나머지는 무료로 볼 수 있습니다. CJE&M 계열 다양한 채널, JTBC, MBN, 채널A등 종편, 보도 전문 채널을 실시간으로 시청할 수 있습니다.
+  {% include components/link.html link='http://www.tving.com/' title='TVING' desc='TV를 더 즐겁게' img='/assets/images/tving.jpg' %}
+
+  CJ ENM이 운영하는 OTT서비스, 다시보기 업로드 속도는 상대적으로 느린 편. CJ ONE에 가입하면 영화채널을 제외한 나머지는 무료로 볼 수 있습니다. CJE&M 계열 다양한 채널, JTBC, MBN, 채널A등 종편, 보도 전문 채널을 실시간으로 시청할 수 있습니다.
 
 ### [네이버 시리즈 ON](https://serieson.naver.com/)
 
@@ -170,6 +179,8 @@ CJ ENM이 운영하는 OTT서비스, 다시보기 업로드 속도는 상대적�
 
 - 무료 영화
 - 방송
+
+{% include components/link.html link='https://serieson.naver.com/' title='네이버 시리즈온 : 영화' desc='최신 영화와 방송, 네이버 시리즈온에서 감상하세요.' img='/assets/images/serieson.png' %}
 
 2018 9월부로 네이버 n스토어가 시리즈on으로 리뉴얼되어 나왔으며, 원래는 웹소설, 웹툰 등을 감상할 수 있는 네이버 시리즈와 웹사이트를 함께 사용했으나 2020년에 들어 완전히 분리되었습니다.
 
@@ -190,6 +201,8 @@ CJ ENM이 운영하는 OTT서비스, 다시보기 업로드 속도는 상대적�
 
 - 디즈니, 픽사, 스타워즈, 마블 시네마틱 유니버스 등
 - 디즈니 플러스 오리지널 시리즈, 영화, 다큐멘터리 등
+
+{% include components/link.html link='https://www.disneyplus.com' title='Disney+' desc='Disney, Pixar, Marvel, Star Wars 등의 영화 및 쇼를 위한 최고의 스트리밍 방법' img='/assets/images/disneyplus.jpg' %}
 
 디즈니가 넷플릭스와 직접 경쟁하고자 자체적으로 운영하는 서비스입니다. 정식 런칭된지 하루만에 구독자가 1000만명을 달성했습니다.
 
@@ -216,6 +229,8 @@ CJ ENM이 운영하는 OTT서비스, 다시보기 업로드 속도는 상대적�
 - 뮤지션 Live, 아프리카TV
 - 시즌 오리지널
 
+{% include components/link.html link='https://m.seezntv.com/' title='Seezn(시즌) - 즐거움을 다 본다!' desc='최신영화, 인기 드라마/예능, 210여 개의 실시간 채널은 물론 다양한 오리지널 시리즈와 프로야구 생중계까지! Seezn 하나로 다 본다!' img='/assets/images/seezn.png' %}
+
 KT의 올레tv 모바일이 전신이며, 뮤지션 Live, 뮤직, 아프리카TV를 시청할 수 있습니다.
 
 실시간 방송은 지상 3파는 없습니다.
@@ -231,6 +246,8 @@ KT의 올레tv 모바일이 전신이며, 뮤지션 Live, 뮤직, 아프리카TV
 **컨텐츠**
 
 - 아마존 오리지널 드라마, 다큐멘터리, 리얼리티, 애니메이션.
+
+{% include components/link.html link='https://www.primevideo.com/' title='프라임 비디오' desc='독점 아마존 오리지널은 물론 인기 영화와 TV 프로그램을 즐겨보세요. 언제, 어디서든 시청할 수 있습니다. 무료 체험을 시작하세요.' img='/assets/images/primevideo.jpg' %}
 
 미국의 기업으로 아마존닷컴의 자회사이자 아마존닷컴에서 넷플릭스의 대항마로서 서비스중인 스트리밍 서비스입니다. 현재 한국에 지사를 두고 서비스하는 상황이 아닌지라 해외결제가 되는 카드가 필수입니다.
 
@@ -249,9 +266,11 @@ KT의 올레tv 모바일이 전신이며, 뮤지션 Live, 뮤직, 아프리카TV
 - 카카오TV 오리지널 드라마, 영화, 예능
 - 방송사 Live 및 인터넷 개인방송 Live
 
-  카카오의 자회사 카카오M에서 제공하는 통합 동영상 서비스로, OTT, 제휴/계약 공식 방송영상, 개인 인터넷 방송등을 제공합니다. 최근 카카오TV 오리지널 드라마, 예능, 영화등을 제작하는데 많은 돈을 투자하고 있는 것으로 보입니다.
+{% include components/link.html link='https://tv.kakao.com/' title='카카오TV' desc='톡에서 보는 오리지널 콘텐츠! 지금 카톡에서 카카오TV 채널을 추가해 보세요.' img='/assets/images/kakaotv.png' %}
 
-  컨텐츠는 많지 않지만 무료로 가벼운 컨텐츠와 방송 라이브 스트리밍 서비스를 이용하고 싶은 분들에게 적합한 플랫폼입니다.
+카카오의 자회사 카카오M에서 제공하는 통합 동영상 서비스로, OTT, 제휴/계약 공식 방송영상, 개인 인터넷 방송등을 제공합니다. 최근 카카오TV 오리지널 드라마, 예능, 영화등을 제작하는데 많은 돈을 투자하고 있는 것으로 보입니다.
+
+컨텐츠는 많지 않지만 무료로 가벼운 컨텐츠와 방송 라이브 스트리밍 서비스를 이용하고 싶은 분들에게 적합한 플랫폼입니다.
 
 ---
 
