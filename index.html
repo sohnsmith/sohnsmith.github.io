@@ -1,21 +1,63 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Topic Picker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20% auto;
+    }
 
-<!-- Posts Index
-================================================== -->
-<div class="blog-grid-container">
-    {% for post in paginator.posts %}
-        {% include postbox.html %}
-    {% endfor %}
-</div>
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
 
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
+    #result {
+      font-size: 24px;
+      font-weight: bold;
+      color: #e74c3c; /* Red color, you can change it to your preference */
+      display: none;
+      padding: 10px;
+      border: 2px solid #e74c3c;
+      margin-bottom: 20px;
+      max-width: 80%; /* Limit the maximum width of the result container */
+      margin: 0 auto; /* Center the container horizontally */
+    }
+  </style>
+</head>
+<body>
+  <h1>Random Topic Picker</h1>
+  <button onclick="pickRandomTopic()">Pick a Random Topic</button>
+  <div id="result"></div>
 
+  <script>
+    const topics = [
+      "Coffee", "Pets", "Rainy Days", "Yoga", "Hiking", "Childhood", "Reading", "Music", "Travel",
+      "Movies", "Social Media", "Ice Cream", "Cooking", "Time Management", "DIY", "Roller Coasters",
+      "Board Games", "Tech Gadgets", "Street Art", "Mystery", "Comedy", "Camping", "Dance", "Decor",
+      "Poetry", "Concerts", "Coffee Breaks", "Gardening", "Exercise", "Traffic", "Fashion", "Brunch",
+      "Traffic Jams", "Cooking Adventures", "Online Shopping", "Morning Commute", "Rainy Day Activities",
+      "Karaoke Nights", "Cultural Diversity", "Food Trucks", "Potluck Parties", "Home Workout", "Book Club",
+      "Beach Picnics", "Picnic in the Park", "Movie Nights at Home", "Lunchtime Rituals", "Farmers' Markets",
+      "Breakfast in Bed", "Amusement Park Rides", "Biking", "Boardwalk Strolls", "Tech Gadgets", "Star Gazing",
+      "Poetry Writing", "DIY Spa", "Ice Skating", "Street Art", "Breakfast", "Mystery Novels", "Social Media",
+      "Outdoor Concerts", "Rainy Days", "Book Club", "Yoga Sessions", "Music Playlist", "Childhood Memories",
+      "Camping Adventures", "Dance Classes", "Farmers Markets", "Movie Nights"
+    ];
+
+    function pickRandomTopic() {
+      const resultContainer = document.getElementById("result");
+      const randomIndex = Math.floor(Math.random() * topics.length);
+      const randomTopic = topics[randomIndex];
+      resultContainer.innerHTML = `<p><span style="font-size: 36px; color: #e74c3c;">${randomTopic}</span></p>`;
+      resultContainer.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
